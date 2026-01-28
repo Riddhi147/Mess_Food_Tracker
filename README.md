@@ -8,42 +8,33 @@ Existing apps are:
                    Too complex
                    Require heavy onboarding
 
-A lightweight food-tracking app where users log food categories daily-
-After 5 consecutive days, users receive:
-A clear summary of eating patterns
-AI-generated, practical suggestions for the next week
-What Makes It Different
- No calorie counting
-  No medical advice
-  Habit awareness, not judgement
-
 # Solution
 This application provides a simple and intuitive interface to:
-                   Record daily food intake
-                   Analyze multi-day consumption patterns
-                   Generate institutional-grade dietary recommendations
+                   1. Record daily food intake
+                   2. Analyze multi-day consumption patterns
+                   3. Generate institutional-grade dietary recommendations
 The system works offline using local storage and performs deterministic analysis to ensure reliability and explainability.
 
 ## Features
-                   Daily food logging per calendar day  
-                   Minimum 5-day tracking requirement for insights  
-                   Summary of food consumption patterns  
-                   Dietary recommendations based on analysis  
-                   Offline-first using AsyncStorage  
-                    Clean, institution-appropriate UI  
-                   Optional AI (Gemini) for enhancing recommendation wording  
+Daily food logging per calendar day  
+Minimum 5-day tracking requirement for insights  
+Summary of food consumption patterns  
+Dietary recommendations based on analysis  
+Offline-first using AsyncStorage  
+Clean, institution-appropriate UI  
+Optional AI (Gemini) for enhancing recommendation wording  
 
 # Tech Stack
-                   **Frontend:** Expo (React Native), TypeScript  
-                   **Navigation:** Expo Router  
-                   **Storage:** AsyncStorage  
-                   **Analysis:** Rule-based dietary pattern analysis  
+Frontend: Expo (React Native), TypeScript  
+Navigation: Expo Router  
+Storage: AsyncStorage  
+Analysis: Rule-based dietary pattern analysis  
                    
 # How to run the project
-                   1. Download the zip and extract to a folder
-                   2. Open folder in termnal
-                   3. Run the following commands:
-                                      npm install
-                                      npx expo start
-                   4. Scan the QR using Expo Go app
+1. Download the zip and extract to a folder
+2. Open folder in termnal
+3. Run the following commands:
+                                      1. npm install   
+                                      2. npx expo start
+4. Scan the QR using Expo Go app
 
